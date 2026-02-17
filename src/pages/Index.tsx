@@ -59,7 +59,7 @@ const Index = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-mono text-xs text-foreground/60">20</span>
-        <h1 className="font-display text-2xl tracking-wider text-foreground">AI SEARCH</h1>
+        <h1 className="font-display text-2xl tracking-wider text-foreground">B-SEARCH NODE</h1>
         <span className="font-mono text-xs text-foreground/60">25</span>
       </motion.div>
 
@@ -76,8 +76,8 @@ const Index = () => {
               transition={{ delay: 0.2 }}
             >
               <h2 className="font-display text-6xl sm:text-8xl tracking-tight text-foreground leading-none">
-                AI SEARCH
-              </h2>
+  B SEARCH NODE
+</h2>
               <p className="font-mono text-xs text-foreground/50 mt-2 tracking-widest uppercase">
                 Est. 2025 — Powered by Wikipedia
               </p>
@@ -170,14 +170,19 @@ const Index = () => {
 
         {/* footer */}
         <div className="border-t-2 border-foreground">
-          <div className="flex items-center justify-between px-6 py-4">
-            <span className="font-mono text-xs text-foreground/40">20</span>
-            <div className="flex items-center gap-1.5 text-[11px] text-foreground/40 font-mono">
-              <Zap className="h-3 w-3" />
-              react + wikipedia api
-            </div>
-            <span className="font-mono text-xs text-foreground/40">25</span>
-          </div>
+          <div className="flex flex-col items-center gap-1 px-6 py-4">
+  <div className="flex items-center justify-between w-full">
+    <span className="font-mono text-xs text-foreground/40">20</span>
+    <div className="flex items-center gap-1.5 text-[11px] text-foreground/40 font-mono">
+      <Zap className="h-3 w-3" />
+      react + wikipedia api
+    </div>
+    <span className="font-mono text-xs text-foreground/40">25</span>
+  </div>
+  <p className="font-mono text-[10px] text-foreground/30">
+    © Velan E · velane929@gmail.com · December 2025
+  </p>
+</div>
           <div className="brutalist-line w-full" />
         </div>
       </div>
